@@ -4,6 +4,9 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    user-select: none;    
+    -webkit-user-select: none;
+
 }
 
 body::before {
@@ -38,7 +41,33 @@ button{
 .imgcs{
     height: 120px;
 }
+
 .butt2css{
     margin-left: 10px;
 
+}
+.jsdiv{
+    display: inline-block;
+    position: relative;
+    margin-left:12px ;
+
+  
+}
+.jsdivin{
+    background-color: rgba(219, 219, 219, 0.836);
+    width: 70px;
+    color: rgb(66, 4, 73);
+    border-radius: 12px;
+    margin-left: 16px;
+    opacity: 0;
+    cursor: pointer;
+    transition: opacity 0.15s ease;
+ 
+
+}
+.jsdiv:hover .jsdivin{
+    opacity: 1;
+}
+#res{
+    display: inline-block;
 }
