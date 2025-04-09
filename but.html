@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Kups</title>
+</head>
+<body>
+    <div style="display: flex; flex-direction: column; align-items: center;">
+    <div class="gdash" id="gg">
+        <div class="titi" >
+            <h1>Rock,Paper,Scicor Game</h1>
+        </div>
+<div class="maindiv" style="display: flex; justify-content: space-evenly; width: 400px;">
+    <div class="inmain">
+    <button id="Rock" class="rrock" onclick="st('Rock')" value="Rock">
+        <img src="rock-removebg-preview.png"> 
+        <div class="rr">Rock</div>
+    </button>
+</div>
+
+<div class="inmain2"> 
+    <button id="Paper" class="ppaper" onclick="st('Paper')" value="Paper" ><img src="paper-removebg-preview-removebg-preview.png"> <div class="rr">Paper</div></button></div>
+
+  <div class="inmain3"><button class="ssor" id="Scicor" onclick="st('Scicor')" value="Scicor" ><img src="scicor-removebg-preview.png"> <div class="rr">Scivor</div></button> </div>  
+
+</div>
+</div>
+
+<div class="maingod" style="display: flex; justify-content: center; border: solid; margin-top: 12px; width: 500px; height: 320px;     border-radius: 20px;">
+    <div>
+
+ 
+    <div style="text-align: center; margin-bottom: 20px; border: solid; border-radius: 50%; margin-top: 12px; background-color: red;" >Game Result</div>
+    <div style="display: flex;">
+
+    
+    <div style="margin-left: 45px;">You</div>
+
+    <div><button id="butimg1" class="butt"></button></div>
+  
+    <div><button id="butimg2" class="butt""></button></div>
+    <div>Computer</div>
+ 
+    </div>
+    <div id="Result" style="text-align: center; height: 12px;"></div>
+    <div style=" text-align: center; font-size: 20px; font-family: Arial; margin-top: 12px;">
+        <div id="Result-cheyk">Records:</div>
+    </div>
+    <div class="dan-kups"   style="display: flex; justify-content: center;">
+
+   <div class="smth">
+    <div>Wins:</div>
+    <div id="Wins">0</div>
+   </div>
+ 
+   <div class="smth">
+    <div>ties: </div>
+    <div id="ties">0</div>
+   </div>
+    
+   <div class="smth">
+    <div>loses: </div>
+    <div id="loses">0</div>
+   </div>
+
+  
+</div>
+<div style="display: flex; justify-content: center; margin-top: 12px;">
+    <button id="RESET" class="newbutt">RESET</button>
+</div>
+
+</div>
+  
+</div>
+</div>
+    <script src="app.js"></script>
+</body>
+</html>

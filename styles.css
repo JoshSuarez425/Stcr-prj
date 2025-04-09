@@ -1,0 +1,151 @@
+button img{
+    height: 60px;
+    
+    
+}
+button:hover{
+    border-color: rebeccapurple ;
+}
+button{
+    background-color: white ;
+    border: solid;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+.butt{
+    margin-left: 12px;
+
+}
+
+.gdash{
+    border: solid;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 230px;
+    width: 500px;
+    border-radius: 20px;
+    transition: height 1s ,margin-top 1s;
+}
+.gdash:active{
+    background-color: blue;
+}
+.dan-kups .smth{
+    display: flex;
+    margin-left: 15px;
+}
+
+#Rock{
+    position: relative;
+/*but 1*/
+}
+.inmain{
+position: relative;
+
+}
+.rrock{
+    position: absolute;
+    right: 0px;
+    top: 0;
+    transition: top 0.15s,box-shadow 0.15s;
+    box-shadow: 0px 0px 0px;
+
+}
+.rrock:hover{
+    top: -12px;
+    box-shadow: 3px 8px 7px rgba(164, 241, 174, 0.856);
+
+
+    
+}
+/*but 1*/
+.inmain2{
+    position: relative;
+}
+
+
+.ppaper{
+position: absolute;
+top: 0;
+right: 0px;
+
+transition: top 0.15s,box-shadow 0.15s;
+
+box-shadow: 0px 0px 0px;
+}
+.ppaper:hover{
+    top: -12px;
+    box-shadow: 3px 8px 7px rgba(164, 197, 241, 0.856);
+
+}
+/*but 1*/
+.inmain3{
+position: relative;
+}
+.ssor{
+    position: absolute;
+    right: 0px;
+    top: 0;
+    transition: top 0.15s;
+    box-shadow: 0px 0px 0px,box-shadow 0.15s;
+
+    
+
+}
+.ssor:hover{
+    top: -12px;
+    box-shadow: 3px 8px 7px rgba(233, 152, 127, 0.856);
+}
+
+
+
+.rr{
+    position: absolute;
+    background-color: gray;
+    padding: 10px;
+    color: white;
+    border-radius: 8px;
+bottom: -40px;
+opacity: 0;
+pointer-events: none;
+transition: opacity 0.20s;
+}
+#Paper{
+    position: relative;
+
+}
+#Scicor{
+    position: relative;
+}
+#Rock:hover .rr{
+    opacity: 1;
+}
+#Paper:hover  .rr{
+    opacity: 1;
+
+}
+#Scicor:hover .rr{
+    opacity: 1;
+}
+.newbutt{
+    background-color: white ;
+    border: solid;
+    border-radius: 2px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+
+}
+
+body{
+    background: linear-gradient(to bottom, skyblue,white);
+    padding-bottom: 1000px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
